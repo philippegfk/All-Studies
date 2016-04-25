@@ -7,7 +7,8 @@ import savReaderWriter
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
  # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 
-bdd = 'All Studies'
+#bdd = 'All Studies'
+bdd = 'BdD_Test'
 
 tab = 'All_Studies_ByBrand'
 #tab = 'All_Studies_ByBrandByCBR'
@@ -22,7 +23,8 @@ tab = 'All_Studies_ByBrand'
 # Liste des variables dont la transformation de 'INTEGER' en 'BIGINT' est nécessaire (mettre [] si aucune variable à traiter)
 Integer_vers_BigInt = ['ID']
 
-step = 1000000
+#step = 1000000
+step = 50
 
  # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
