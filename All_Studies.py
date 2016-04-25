@@ -13,7 +13,6 @@ import savReaderWriter
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
  # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 
-#bdd = 'All Studies'
 bdd = 'BdD_Test'
 
 tab = 'All_Studies_ByBrand'
@@ -229,17 +228,3 @@ Import_Tabl_Var.cur.close()
 Import_Tabl_Var.conn.close()
 
 Nettoyage_Repertoire()
-
-
-
-#data = savReaderWriter.SavReader(SPSSFile, returnHeader=True, ioLocale='french')
-#with data :
-#	allData = data.all()	# fetch all the data, if it fits into memory
-#	print("The file contains %d records" % len(File))
-#	print("The first six records look like this\n"), data[0:6]
-#	print("The first record looks like this\n"), data[0]
-#	print("The last four records look like this\n"), data.tail(4)
-#	print("The last record looks like this\n"), data.tail(1)
-#	print("The first five records look like this\n"), data.head()
-#	print("First column:\n"), data[..., 0]	# requires numpy
-#	print("Row 4 & 5, first three cols\n"), data[4:6, :3]	# requires numpy
