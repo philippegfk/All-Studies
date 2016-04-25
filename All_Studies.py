@@ -4,16 +4,10 @@ from PhS import *
 
 import savReaderWriter
 
-#########################################################################################################################
-#                                                                                                                       #
-# Le nom du fichier SPSS doit être strictement identique au nom du programme Python dont sont importées les données !!! #
-#                                                                                                                       #
-#########################################################################################################################
-
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
  # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 
-bdd = 'BdD_Test'
+bdd = 'All Studies'
 
 tab = 'All_Studies_ByBrand'
 #tab = 'All_Studies_ByBrandByCBR'
