@@ -1,2 +1,2 @@
 # All-Studies
-SPSS to PostgreSQL
+Passer les variables d'un fichier SPSS vers une base de données PostgreSQL
