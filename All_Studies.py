@@ -163,4 +163,5 @@ while boucle < nb_boucles :
 
 cur.close()
 conn.close()
+
 Nettoyage_Repertoire()
