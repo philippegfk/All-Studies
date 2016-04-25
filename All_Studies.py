@@ -20,21 +20,22 @@ tab = 'All_Studies_ByBrand'
 #tab = 'All_Studies_ByBrandByCBR'
 #tab = 'All_Studies_ByBrandByXp'
 
-step = 1000000
-step = 10
-
- # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
-# # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
-
+# Pour info. :
+# ------------
 # All_Studies_ByBrand      :  16.279.106 observations
 # All_Studies_ByBrandByCBR :  30.791.795 observations
 # All_Studies_ByBrandByXp  : 222.491.300 observations
+
+step = 1000000
+
+ # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
+# # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 
 nomfichiertexte = 'bdd_table.TXT'
 
 # Nom du fichier de données SPSS 
 SPSSFile = tab + '.sav'											
-SPSSFile = tab + '_100premiers.sav'
+
 # Récupération du dernier numéro d'identifiant
 DernierIDFile = tab + '.txt'
 
@@ -163,17 +164,3 @@ while boucle < nb_boucles :
 cur.close()
 conn.close()
 Nettoyage_Repertoire()
-
-
-
-#data = savReaderWriter.SavReader(SPSSFile, returnHeader=True, ioLocale='french')
-#with data :
-#	allData = data.all()	# fetch all the data, if it fits into memory
-#	print("The file contains %d records" % len(File))
-#	print("The first six records look like this\n"), data[0:6]
-#	print("The first record looks like this\n"), data[0]
-#	print("The last four records look like this\n"), data.tail(4)
-#	print("The last record looks like this\n"), data.tail(1)
-#	print("The first five records look like this\n"), data.head()
-#	print("First column:\n"), data[..., 0]	# requires numpy
-#	print("Row 4 & 5, first three cols\n"), data[4:6, :3]	# requires numpy
